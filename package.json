@@ -2,10 +2,9 @@
   "name": "react-calculator-epx",
   "version": "1.0.0",
   "description": "This library provides functions to calculate any numbers",
-  "main": "index.d.ts",
+  "main": "Calculator.ts",
   "license": "MIT",
   "author": "@dants0",
-  "private": "false",
   "repository": {
     "type": "git",
     "url": "https://github.com/Dants0/react-calculator-epx.git"
