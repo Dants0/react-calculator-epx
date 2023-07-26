@@ -1,6 +1,6 @@
 {
   "name": "react-calculator-epx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This library provides functions to calculate any numbers",
   "main": "Calculator.ts",
   "license": "MIT",
