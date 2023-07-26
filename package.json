@@ -8,7 +8,7 @@
   "private": "false",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dants0/.git"
+    "url": "https://github.com/Dants0/react-calculator-epx.git"
   },
   "scripts": {
     "test": "jest",
