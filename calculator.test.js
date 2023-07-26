@@ -18,12 +18,12 @@ describe('Calculator', () => {
         const calculator = new Calculator_1.Calculator({ num_1: 20, num_2: 4 });
         expect(calculator.division()).toBe(5);
     });
-    test('division() should throw an error when num_1 is 0', () => {
+    test('division() should return the division when num_1 is 0', () => {
         const calculator = new Calculator_1.Calculator({ num_1: 0, num_2: 10 });
-        expect(() => calculator.division()).toThrowError('0 equals to zero');
+        expect(calculator.division()).toBe(0);
     });
     test('division() should return num_1 when num_2 is 0', () => {
         const calculator = new Calculator_1.Calculator({ num_1: 10, num_2: 0 });
-        expect(calculator.division()).toBe(10);
+        expect(() => calculator.division()).toThrowError('Division by zero is not possible');
     });
 });

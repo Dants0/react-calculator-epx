@@ -20,10 +20,10 @@ class Calculator {
     }
     division() {
         if (this.num_1 === 0) {
-            throw new Error(`${this.num_1} equals to zero`);
+            return 0;
         }
         if (this.num_2 === 0) {
-            return this.num_1;
+            throw new Error(`${this.num_2} Division by zero is not possible`);
         }
         return this.num_1 / this.num_2;
     }
