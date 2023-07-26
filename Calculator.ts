@@ -21,10 +21,6 @@ export class Calculator {
   }
 
   multiply(): number {
-    if (this.num_1 === 0) {
-      throw new Error(`${this.num_1} equals to zero`);
-    }
-
     return this.num_1 * this.num_2;
   }
 
