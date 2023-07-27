@@ -1,7 +1,7 @@
 {
   "name": "react-calculator-epx",
   "version": "1.0.3",
-  "description": "This library provides functions to calculate any numbers",
+  "description": "This library is a powerful npm calculator package that provides a wide range of mathematical functionalities for developers and enthusiasts who need to perform numerical operations quickly and accurately. This easy-to-use and well-documented JavaScript calculator can be seamlessly integrated into any project, whether in the Node.js environment or the browser. With Calculator, complex calculations become effortless, making it an essential tool for any math-intensive application or website. Empower your projects with this robust and reliable calculator library, and streamline your mathematical computations with ease.",
   "main": "Calculator.ts",
   "license": "MIT",
   "author": "@dants0",
@@ -13,7 +13,7 @@
     "test": "jest",
     "build": "tsc"
   },
-  "keywords": [],
+  "keywords": ["calculator", "mathematical operations", "library", "math functions", "integration", "versatile"],
   "devDependencies": {
     "@types/jest": "^29.5.3",
     "jest": "^29.6.1",
