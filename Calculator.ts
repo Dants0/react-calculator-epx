@@ -67,8 +67,79 @@ export class Calculator {
     return factorial_answer
   }
 
+  trianglearea(base: number, height: number):number{
+    if (base == null || height == null || base === 0 || height === 0 || base === -1 || height === -1) {
+      throw new Error('Invalid base and height specified for Area triangles');
+    }
 
+    let area = base * height / 2
+    
+    return area
+  }
 
+  perfectsquare(a: number):number{
+    if(a == null || a == 0 || a == -1){
+      throw new Error(`Invalid square specified`)
+    }
+
+    let square = Math.pow(a, 2)
+
+    return square
+  }
+
+  squareroot(number: number):number{
+    if(number == null || number == 0 || number == -1){
+      throw new Error(`Invalid square root specified`)
+    }
+
+    let result = Math.sqrt(number)
+    
+    return result
+  }
+
+   rectangle(base: number, height: number): number {
+    const isValidInput = (n: number | null) => n !== null && n !== 0 && n !== -1;
+  
+    if (!isValidInput(base) || !isValidInput(height)) {
+      throw new Error('Invalid base and height specified for rectangle');
+    }
+  
+    let result = base * height;
+    return result;
+  }
+
+  diamond(max_diagonal: number, min_diagonal: number):number{
+    const isValidInput = (n: number) => n !== -1;
+
+    if (!isValidInput(max_diagonal) || !isValidInput(min_diagonal)) {
+      throw new Error('Invalid max_diagonal and min_diagonal specified');
+    }
+  
+    let result = (max_diagonal * min_diagonal) / 2;
+    return result;
+  }
+
+  trapeze(max_base: number, min_base:number, height: number):number{
+    if (max_base <= 0 || min_base <= 0 || height <= 0) {
+      throw new Error('Invalid max_base, min_base, height specified. They must be greater than zero.');
+    }
+  
+    let result = (max_base + min_base) * height / 2;
+    return result;
+  }
+  
+
+  areacircle(radius: number):number{
+    if(radius == -1 || radius == 0){
+      throw new Error(`Invalid radius specified`)
+    }
+    
+    const pi = Math.PI
+
+    let result = pi * radius ** 2
+    
+    return result
+  }
 
   showResults(): string {
     const sumResult = `Sum: ${this.sum()}`;
