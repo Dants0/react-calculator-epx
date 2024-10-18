@@ -45,6 +45,9 @@ The project has been host here [Calculator](https://calculator-module.vercel.app
 - [NPM](https://www.npmjs.com)
 - [JEST](https://jestjs.io/docs/getting-started)
 
+## 💲 Donate
+- [Stripe](https://donate.stripe.com/dR615PcRH2ZG4qA289)
+
 ## ✨ Functions
 - [X] Sum
 - [X] Minus
